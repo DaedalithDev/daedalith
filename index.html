@@ -27,12 +27,10 @@
                 <div class="words3" style="margin-top: 25px;">
                     <span style="font-family: Georgia; color: rgb(23, 23, 23); font: bolder; text-align: center; font-size: 15px; padding-top: 10px;">Join the mailing list to be the first to hear about our upcoming projects!</span>
                 </div>
-                <div class="input-container" style="display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 25px;">
-                    <input type="text" id="email" name="email" placeholder="Doodlebob@gmail.com" class="input">
-                </div>
-                <div class="confirm">
-                    <span style="font-family: Georgia">CONFIRM</span>
-                </div>
+                <form action="https://formspree.io/f/your_form_id" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit">Confirm</button>
+                </form>
             </div>
           </div>
     </body>
