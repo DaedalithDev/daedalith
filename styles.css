@@ -41,9 +41,9 @@ html, body {
 }
 
 .confirm:hover {
-    background-color: #0026d0cf;  /* Lighter shade on hover */
+    background-color: #023293cf;  /* Lighter shade on hover */
 }
 
 body {
-    background: radial-gradient(circle, rgb(6, 0, 125) 20%, rgba(3, 0, 58, 0.992) 80%);
+    background: radial-gradient(circle, rgb(19, 28, 85) 20%, rgba(13, 20, 43, 0.992) 80%);
 }
