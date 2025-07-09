@@ -1,1 +1,1 @@
-# daedalith
+# Daedalith Development is a group of programmers.
